@@ -12,22 +12,30 @@ body {
 }
 
 @media (orientation: landscape) {
-    .favicon {
+    .left {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
         position: absolute;
-        left: 300px;
-        top: 170px;
+        left: 15%;
+        top: 20%;
+        height: 50%;
+        width: 450px;
+    }
+
+    .favicon {
+        height: 290px;
+        width: 290px;
         border-radius: 145px;
         background-color: var(--theme-color-1);
         box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
     }
 
     .bottons {
-        height: 30px;
+        height: 7.5%;
         width: 420px;
         display: flex;
-        position: absolute;
-        left: 220px;
-        top: 470px;
         justify-content: space-between;
         font-size: 1.5rem;
     }
@@ -39,5 +47,28 @@ body {
 }
 
 @media (orientation: portrait) {
+    .left {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+    }
+
+    .favicon {
+        height: 290px;
+        width: 290px;
+        border-radius: 145px;
+        background-color: var(--theme-color-1);
+        box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+    }
+
+    .bottons {
+        height: 7.5%;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5rem;
+    }
 
 }
