@@ -9,7 +9,16 @@
 }
 
 body {
-    background-color: var(--theme-color-2);
+    background: var(--theme-color-2);
+    background-image:-webkit-linear-gradient(240deg,var(--theme-color-2),white);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
     font-family: -apple-system, 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', 'Merriweather',serif;
 }
 
