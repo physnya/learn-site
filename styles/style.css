@@ -10,7 +10,7 @@
 
 body {
     background: var(--theme-color-2);
-    background-image:-webkit-linear-gradient(240deg,var(--theme-color-2),white);
+    background-image:-webkit-linear-gradient(240deg,var(--theme-color-3),white);
     background-position: center 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
